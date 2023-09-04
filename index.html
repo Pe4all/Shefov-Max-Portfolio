@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+</head>
+
+<body class="light-theme">
+  <div class="experience">
+    <canvas class="experience-canvas"></canvas>
+  </div>
+
+  <!-- Preloader -->
+  <div class="preloader">
+    <div class="preloader-wrapper">
+      <div class="loading">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="page">
+    <div class="toggle-bar">
+      <div class="sun-wrapper">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24">
+          <path fill="currentColor"
+            d="M440-760v-160h80v160h-80Zm266 110-55-55 112-115 56 57-113 113Zm54 210v-80h160v80H760ZM440-40v-160h80v160h-80ZM254-652 140-763l57-56 113 113-56 54Zm508 512L651-255l54-54 114 110-57 59ZM40-440v-80h160v80H40Zm157 300-56-57 112-112 29 27 29 28-114 114Zm283-100q-100 0-170-70t-70-170q0-100 70-170t170-70q100 0 170 70t70 170q0 100-70 170t-170 70Zm0-80q66 0 113-47t47-113q0-66-47-113t-113-47q-66 0-113 47t-47 113q0 66 47 113t113 47Zm0-160Z" />
+        </svg>
+      </div>
+      <button class="toggle-button">
+        <div class="toggle-circle"></div>
+      </button>
+      <div class="moon-wrapper">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24">
+          <path fill="currentColor"
+            d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Zm0-80q88 0 158-48.5T740-375q-20 5-40 8t-40 3q-123 0-209.5-86.5T364-660q0-20 3-40t8-40q-78 32-126.5 102T200-480q0 116 82 198t198 82Zm-10-270Z" />
+        </svg>
+      </div>
+    </div>
+
+    <div class="page-wrapper">
+      <section class="hero">
+        <div class="hero-wrapper">
+          <div class="intro-text">Welcome to my portfolio!</div>
+          <div class="arrow-svg-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24">
+              <path fill="currentColor"
+                d="M12 14.95q-.2 0-.375-.063-.175-.062-.325-.212L6.675 10.05q-.275-.275-.262-.688.012-.412.287-.687.275-.275.7-.275.425 0 .7.275l3.9 3.9 3.925-3.925q.275-.275.688-.263.412.013.687.288.275.275.275.7 0 .425-.275.7l-4.6 4.6q-.15.15-.325.212-.175.063-.375.063Z" />
+            </svg>
+          </div>
+          <div class="hero-main">
+            <h1 class="hero-main-title">Shefov Max</h1>
+            <p class="hero-main-description">Frontend Developer</p>
+          </div>
+
+          <div class="hero-second">
+            <p class="hero-second-subheading first-sub">ShefovMax</p>
+            <p class="hero-second-subheading second-sub">Portfolio</p>
+          </div>
+
+        </div>
+      </section>
+
+      <div class="first-move section-margin"></div>
+
+
+      <section class="first-section section left">
+        <div class="progress-wrapper progress-bar-wrapper-left">
+          <div class="progress-bar"></div>
+        </div>
+        <div class="section-intro-wrapper">
+          <h1 class="section-title">
+            <span class="section-title-text">Обо мне</span>
+            <div class="section-title-decoration styleOne"></div>
+            <div class="section-title-decoration styleTwo"></div>
+            <div class="section-title-decoration styleThree"></div>
+          </h1>
+          <span class="section-number">01</span>
+        </div>
+
+        <div class="section-detail-wrapper">
+          <h3 class="section-heading">ПРИВЕТ 👋</h3>
+          <p class="section-text">Я студент второго курса магистратуры ВлГУ из города Владимир.<br>Моя цель работать в крупной IT компании и дорасти до senior разработчика.</p>
+          <p class="section-text">В 2022 году я прошел обучение по направлению Frontend в STEP IT Academy. После этого проходил стажировку в Hawking Brothers в онлайн формате. На данном этапе обучаюсь самостоятельно, по необходимости консультируясь с ментором.</p>
+          <p class="section-text">В свободное время я увлекаюсь 3D моделированием в программе Blender 3D, а также решением алгоритмов на сайте CodeWars. </p>
+        </div>
+      </section>
+
+      <div class="second-move section-margin"></div>
+
+
+      <section class="second-section section right">
+        <div class="progress-wrapper progress-bar-wrapper-right">
+          <div class="progress-bar blue-background"></div>
+        </div>
+
+        <div class="section-intro-wrapper blue-text blue-border">
+          <h1 class="section-title blue-text blue-border">
+            <span class="section-title-text blue-text">ОПЫТ</span>
+            <div class="section-title-decoration styleOne blue-border"></div>
+            <div class="section-title-decoration styleTwo blue-border"></div>
+            <div class="section-title-decoration styleThree blue-background blue-border"></div>
+          </h1>
+          <span class="section-number blue-text">02</span>
+        </div>
+
+        <div class="section-detail-wrapper">
+          <h3 class="section-heading">САЙТ-ПОРТФОЛИО</h3>
+          <p class="section-text">Данный сайт написан на ванильном js (классовые компоненты) с использованием паттерна Singleton, для интеграции 3D моделей и анимаций использовал библиотеки Three.js и GSAP, верстка с использованием БЭМ-методолгии.
+            Модель комнаты создал в программе Blender 3D.
+          </p>
+          <h3 class="section-heading">SPA ПРИЛОЖЕНИЕ ДЛЯ ПРОСМОТРА КАРТИН</h3>
+          <p class="section-text">Использовал при разработке: React (функиональные компоненты), scss, библиотеку react-router, Axios. Посмотреть: <a href="https://pe4all.github.io/Test-task-5">https://pe4all.github.io/Test-task-5</a></p>
+          <h3 class="section-heading">ФОРМА ВАЛИДАЦИИ</h3>
+          <p class="section-text">Сделана на ванильном js, html, css. Посмотреть: <a href="https://pe4all.github.io/Test-task-6">https://pe4all.github.io/Test-task-6</a></p>
+          <h3 class="section-heading">ТАКЖЕ</h3>
+          <p class="section-text">- Разрабатывал мобильное приложение под React Native<br/>
+            - Строил CMS на WordPress/ModX</p>
+        </div>
+      </section>
+
+      <div class="third-move section-margin"></div>
+
+
+      <section class="third-section section left">
+        <div class="progress-wrapper progress-bar-wrapper-left">
+          <div class="progress-bar green-background"></div>
+        </div>
+
+        <div class="section-intro-wrapper green-text green-border">
+          <h1 class="section-title green-text green-border">
+            <span class="section-title-text green-text">КОНТАКТЫ</span>
+            <div class="section-title-decoration styleOne green-border"></div>
+            <div class="section-title-decoration styleTwo green-border"></div>
+            <div class="section-title-decoration styleThree green-background green-border"></div>
+          </h1>
+          <span class="section-number green-text">03</span>
+        </div>
+
+        <div class="section-detail-wrapper">
+          <h3 class="section-heading">Почта</h3>
+          <p class="section-text">shefov.max@yandex.ru</p>
+          <h3 class="section-heading">Telegram</h3>
+          <p class="section-text"><a href="https://t.me/Pechal11">https://t.me/Pechal11</a></p>
+          <h3 class="section-heading">GitHub</h3>
+          <p class="section-text"><a href="https://github.com/Pe4all">https://github.com/Pe4all</a></p>
+        </div>
+      </section>
+
+    </div>
+  </div>
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
